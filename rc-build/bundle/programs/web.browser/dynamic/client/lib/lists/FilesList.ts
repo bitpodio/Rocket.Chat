@@ -1,0 +1,2 @@
+function module(t,s,i){let e;i.export({FilesList:()=>n}),i.link("./MessageList",{MessageList(t){e=t}},0);const o=(t,s)=>t.rid===s&&"rid"in t;class n extends e{constructor(t){super(),this._options=t}get options(){return this._options}updateFilters(t){this._options=t,this.clear()}filter(t){const{rid:s}=this._options;return!!o(t,s)}compare(t,s){var i,e;return(null!==(i=s.tlm)&&void 0!==i?i:s.ts).getTime()-(null!==(e=t.tlm)&&void 0!==e?e:t.ts).getTime()}}}
+

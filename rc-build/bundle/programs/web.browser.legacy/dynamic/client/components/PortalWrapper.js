@@ -1,0 +1,2 @@
+function module(r,e,n){var t,o;n.link("@babel/runtime/helpers/inheritsLoose",{default:function(r){t=r}},0),n.link("react",{PureComponent:function(r){o=r}},0);var u=function(r){function e(){for(var e,n=arguments.length,t=new Array(n),o=0;o<n;o++)t[o]=arguments[o];return(e=r.call.apply(r,[this].concat(t))||this).state={errored:!1},e.componentDidCatch=function(){},e.render=function(){return e.state.errored?null:e.props.portal},e}return t(e,r),e}(o);u.getDerivedStateFromError=function(){return{errored:!0}},n.exportDefault(u)}
+

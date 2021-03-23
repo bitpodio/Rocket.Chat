@@ -1,0 +1,2 @@
+function module(n,e,t){var u,r,i;t.export({useUserData:function(){return o}}),t.link("react",{useMemo:function(n){u=n}},0),t.link("use-subscription",{useSubscription:function(n){r=n}},1),t.link("../lib/presence",{Presence:function(n){i=n}},2);var o=function(n){var e=u((function(){return{getCurrentValue:function(){return i.store.get(n)},subscribe:function(e){return i.listen(n,e),function(){i.stop(n,e)}}}}),[n]);return r(e)}}
+
